@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAMSMP | سيرفر ماين كرافت</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- خلفية النجوم -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+
+    <!-- الهيدر -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-area">
+                <img src="dreamsmp-logo.png" alt="DREAMSMP Logo" class="main-logo">
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">عن السيرفر</a>
+                <a href="#features" class="nav-link">المميزات</a>
+                <a href="#rules" class="nav-link">القوانين</a>
+                <a href="#join" class="nav-link join-btn">ادخل السيرفر</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- الهيرو -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="green">DREAM</span><span class="white">SMP</span>
+                </h1>
+                <p class="hero-subtitle">أفضل سيرفر ماين كرافت عربي</p>
+                <p class="hero-desc">
+                    انضم لعالم مليان مغامرات، اقتصاد قوي، أحداث يومية، ومجتمع ودود.
+                    السيرفر مصمم خصيصاً لعشاق الـ Survival و الـ Roleplay.
+                </p>
+
+                <div class="server-ip-box">
+                    <span class="ip-label">عنوان السيرفر:</span>
+                    <div class="ip-copy" id="copyIp">
+                        <span class="ip-text" id="serverIp">play.dreamsmp.online</span>
+                        <button class="copy-btn" title="نسخ">📋</button>
+                    </div>
+                    <span class="ip-status online">● أونلاين</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary">ادخل دلوقتي</a>
+                    <a href="https://discord.gg/your-invite" target="_blank" class="btn btn-discord">انضم لديسكورد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- عن السيرفر -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">عن <span class="green">DREAMSMP</span></h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🏰</div>
+                    <h3>سيرفايفال كامل</h3>
+                    <p>عالم سيرفايفال كلاسيكي مع تعديلات خفيفة لتحسين التجربة بدون ما يبوظ الفانيلا.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">💰</div>
+                    <h3>اقتصاد قوي</h3>
+                    <p>نظام اقتصاد متكامل، متاجر، وظائف، وبنوك. ابني إمبراطوريتك التجارية.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">⚔️</div>
+                    <h3>أحداث يومية</h3>
+                    <p>حروب، مسابقات بناء، أحداث رولبلاي، وجوائز قيمة كل أسبوع.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>حماية كاملة</h3>
+                    <p>نظام حماية أراضي متقدم، منع الجريفرز، وفريق إداري نشط 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- المميزات -->
+    <section id="features" class="section features">
+        <div class="container">
+            <h2 class="section-title">مميزات <span class="green">السيرفر</span></h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <span class="feature-num">01</span>
+                    <div class="feature-text">
+                        <h3>نسخ ماين كرافت 1.21+</h3>
+                        <p>آخر إصدار مدعوم مع كل التحديثات الجديدة.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-num">02</span>
+                    <div class="feature-text">
+                        <h3>نظام رتب مميز</h3>
+                        <p>رتب VIP و MVP و Legend مع مميزات حصرية لكل رتبة.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-num">03</span>
+                    <div class="feature-text">
+                        <h3>عالم مخصص</h3>
+                        <p>خريطة مبنية باحتراف + عالم نذر + إند مجهز.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-num">04</span>
+                    <div class="feature-text">
+                        <h3>دعم عربي كامل</h3>
+                        <p>شات عربي، قوانين واضحة، وإدارة تتكلم عربي.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-num">05</span>
+                    <div class="feature-text">
+                        <h3>متجر و رتب</h3>
+                        <p>متجر أونلاين لشراء الرتب والكوينز بسهولة.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-num">06</span>
+                    <div class="feature-text">
+                        <h3>مجتمع نشط</h3>
+                        <p>ديسكورد مليان أحداث وأعضاء يلعبوا طول اليوم.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- القوانين -->
+    <section id="rules" class="section rules">
+        <div class="container">
+            <h2 class="section-title">قوانين <span class="green">السيرفر</span></h2>
+            <div class="rules-box">
+                <div class="rule">
+                    <span class="rule-num">1</span>
+                    <p>ممنوع استخدام أي نوع من الهاكات أو الشيتس.</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-num">2</span>
+                    <p>احترام جميع اللاعبين، ممنوع السب أو الإهانة.</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-num">3</span>
+                    <p>ممنوع الجريف في المناطق المحمية أو أراضي اللاعبين.</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-num">4</span>
+                    <p>ممنوع الإعلانات عن سيرفرات تانية داخل الشات.</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-num">5</span>
+                    <p>اتبع تعليمات الإدارة، وأي مخالفة ممكن تؤدي للحظر.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- انضم -->
+    <section id="join" class="section join">
+        <div class="container">
+            <h2 class="section-title">ازاي تدخل <span class="green">السيرفر؟</span></h2>
+            <div class="join-steps">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <h3>افتح ماين كرافت</h3>
+                    <p>افتح اللعبة على إصدار 1.21 أو أحدث</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <h3>اضغط Multiplayer</h3>
+                    <p>روح على قائمة السيرفرات</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <h3>ضيف السيرفر</h3>
+                    <p>حط العنوان: <strong>play.dreamsmp.online</strong></p>
+                </div>
+                <div class="step">
+                    <div class="step-num">4</div>
+                    <h3>ادخل واستمتع</h3>
+                    <p>اختار السيرفر وادخل عالم DREAMSMP</p>
+                </div>
+            </div>
+
+            <div class="final-ip">
+                <p>عنوان السيرفر:</p>
+                <div class="big-ip" id="copyIp2">
+                    <span>play.dreamsmp.online</span>
+                    <button class="copy-btn">نسخ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="green">DREAM</span><span class="white">SMP</span>
+                </div>
+                <p>© 2026 DREAMSMP. جميع الحقوق محفوظة.</p>
+                <div class="socials">
+                    <a href="#" title="Discord">Discord</a>
+                    <a href="#" title="YouTube">YouTube</a>
+                    <a href="#" title="TikTok">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
