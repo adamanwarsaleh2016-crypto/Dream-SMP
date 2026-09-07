@@ -16,8 +16,8 @@ document.querySelectorAll('.nav-link').forEach(link => {
 });
 
 // Copy IP function
-function copyIp(text) {
-    navigator.clipboard.writeText(text).then(() => {
+function copyIp() {
+    navigator.clipboard.writeText(dream1smp.play.hosting).then(() => {
         showToast('تم نسخ عنوان السيرفر ✓');
     }).catch(() => {
         // Fallback
@@ -47,13 +47,11 @@ function showToast(message) {
 
 // Attach copy events
 document.getElementById('copyIp')?.addEventListener('click', () => {
-    copyIp('dream1smp.play.hosting
-');
+    copyIp();
 });
 
 document.getElementById('copyIp2')?.addEventListener('click', () => {
-    copyIp('dream1smp.play.hosting
-');
+    copyIp();
 });
 
 // Active nav link on scroll
