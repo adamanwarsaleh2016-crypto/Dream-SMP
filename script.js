@@ -47,11 +47,13 @@ function showToast(message) {
 
 // Attach copy events
 document.getElementById('copyIp')?.addEventListener('click', () => {
-    copyIp('play.dreamsmp.online');
+    copyIp('dream1smp.play.hosting
+');
 });
 
 document.getElementById('copyIp2')?.addEventListener('click', () => {
-    copyIp('play.dreamsmp.online');
+    copyIp('dream1smp.play.hosting
+');
 });
 
 // Active nav link on scroll
